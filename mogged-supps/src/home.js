@@ -1,14 +1,14 @@
 import './home.css';
-import ScriptTag from 'react-script-tag';
+import saitama from './assets/saitama.jpg';
 
 function Home() {
     return (
         <div>
-            <nav class='nav'>
+            <nav className='nav'>
 
             </nav>
-            <div>
-
+            <div className='main-image'>
+                <img id='home-img' src={saitama} alt='Dank Cover Shot'></img>
             </div>
         </div> 
     );
