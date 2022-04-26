@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+.nav {
+    background-color: #3D0D7C;
+    width: 100%;
+    height: 100px;
+}
+
+.heading {
+    font-family: 'Black Ops One', cursive;
+    color: #C9FF14;
+    font-size: 75px; 
+}
