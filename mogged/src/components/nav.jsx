@@ -5,8 +5,14 @@ function Nav() {
     return (
         <nav className='navbar'>
             <a className='nav-title'>
-              <img src={moggedLogo} className='nav-logo'/> 
+              <img src={moggedLogo} className='nav-logo'/>
+              <span className='nav-logo-text'>Mogged</span>
             </a>
+            <ul className='nav-list'>
+                <li className='nav-el'>Our Products</li>
+                <li className='nav-el'>Shop Now</li>
+                <li className='nav-el'>Contact</li>
+            </ul>
         </nav>
     )
 }
