@@ -39,6 +39,25 @@
   color: #888;
 }
 
+
+.spacer {
+  margin-top: 10px;
+}
+.spacer-1 {
+  margin-top: 15px;
+}
+.spacer-2 {
+  margin-top: 25px;
+}
+.spacer-3 {
+  margin-top: 50px;
+}
+.spacer-4 {
+  margin-top: 100px;
+}
+
+
+
 .navbar {
   height: 95px;
   background-color: #3b3b3b;
@@ -82,7 +101,7 @@
   justify-content: flex-end;
   width: 75%;
   padding-right: 50px;
-  padding-top: 20px;
+  padding-top: 20dpx;
 }
 
 .hero {
