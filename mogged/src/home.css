@@ -12,9 +12,18 @@
     color: white;
 }
 
+.purple {
+    color: #3D0D7C;
+}
+
 .home-header-1 {
     font-family: 'Black Ops One', cursive;
     font-size: 150px;
+}
+
+.home-header-2 {
+    font-family: 'Black Ops One', cursive;
+    font-size: 75px;
 }
 
 .home-subheadings {
@@ -32,6 +41,18 @@
     background-image: url('./assets/spartan.png');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.sec-2-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.sec-2-con {
+    width: 90%;
+    text-align: center;
 }
 
 .mogged-text {
