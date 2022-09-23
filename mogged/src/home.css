@@ -50,6 +50,17 @@
     background-color: white;
 }
 
+.sec-3-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.sec-3-img {
+    width: 60%;
+}
+
 .sec-2-con {
     width: 90%;
     text-align: center;
@@ -62,6 +73,13 @@
     text-align: left;
 }
 
+.mogged-text-2 {
+    width: 80%;
+    font-size: 25px;
+    line-height: 32px;
+    font-family: 'Black Ops One', cursive;
+}
+
 .home-button-1 {
     font-size: 30px;
     border-radius: 40px;
@@ -69,7 +87,22 @@
     background-color: rgb(14, 12, 12);
 }
 
+.home-button-2 {
+    font-size: 30px;
+    border-radius: 40px;
+    font-family: 'Black Ops One', cursive;
+    background-color: #3D0D7C;
+    color: white;
+}
+
 .home-button-1:hover {
     color: #C9FF14;
     border: 1px solid #C9FF14;
+}
+
+.home-button-2:hover {
+    transition-duration: 400ms;
+    color: #3D0D7C;
+    border: 2px solid #3D0D7C;
+    background-color: white;
 }
