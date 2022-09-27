@@ -1,6 +1,6 @@
 export default function ProductCard(props) {
     return (
-        <div className='productCard spacer-3'>
+        <div className='productCard'>
             <img src={props.img} alt="protein" className="card-img" />
             <div className="card-info">
                 <h2 className="card-header">{props.title}</h2>

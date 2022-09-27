@@ -1,5 +1,6 @@
 import ProductCard from './ProductCard'
 import Img from '../assets/protein.png'
+import Img2 from '../assets/creatine.png'
 
 export default function Section2 () {
     return (
@@ -10,10 +11,16 @@ export default function Section2 () {
                     Different Ways To Get Absolutely Massive</h1>
                 </div>
             </div>
+            <br/>
+            <br/>
+            <br/>
             <ProductCard img={Img} title='Mogged Protein' body='The Product That Started It All, Mogged Protein
                     Is Made From The Sweat Of The Legendary 
                     Champions Of Mount Swolympus. Do You Have
                     What It Takes To Become A Ripped Champion?'/>
+            <ProductCard img={Img2} title='Cretaceous Creatine' body='Forged From Old T-Rex Fossils, Our Creatine
+                Is Guaranteed to give you the body of a caveman
+                That Battled Dinos On The Daily'/>        
         </div>
     )
 }
