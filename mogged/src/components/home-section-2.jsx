@@ -10,7 +10,10 @@ export default function Section2 () {
                     Different Ways To Get Absolutely Massive</h1>
                 </div>
             </div>
-            <ProductCard img={Img}/>
+            <ProductCard img={Img} title='Mogged Protein' body='The Product That Started It All, Mogged Protein
+                    Is Made From The Sweat Of The Legendary 
+                    Champions Of Mount Swolympus. Do You Have
+                    What It Takes To Become A Ripped Champion?'/>
         </div>
     )
 }
