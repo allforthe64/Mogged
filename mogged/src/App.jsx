@@ -6,6 +6,7 @@ import './home.css'
 //component imports
 import Hero from './components/Hero'
 import Main from './components/home-main'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
       <Hero />
       <Main />
+      <Footer />
     </div>
   )
 }
