@@ -1,9 +1,14 @@
 import ProductCard from './ProductCard'
-import Img from '../assets/protein.png'
-import Img2 from '../assets/creatine.png'
-import Img3 from '../assets/preworkout.png'
+import data from '../data/home-product-data'
 
 export default function Section2 () {
+
+    const cards = data.map(item => {
+        return (
+            <ProductCard img={item.img} title={item.title} body={item.body}/>
+        )
+    })
+
     return (
         <div className='white-background'>
             <div className="sec-2-main">
@@ -15,16 +20,7 @@ export default function Section2 () {
             <br/>
             <br/>
             <br/>
-            <ProductCard img={Img} title='Mogged Protein' body='The Product That Started It All, Mogged Protein
-                    Is Made From The Sweat Of The Legendary 
-                    Champions Of Mount Swolympus. Do You Have
-                    What It Takes To Become A Ripped Champion?'/>
-            <ProductCard img={Img2} title='Cretaceous Creatine' body='Forged From Old T-Rex Fossils, Our Creatine
-                Is Guaranteed to give you the body of a caveman
-                That Battled Dinos On The Daily'/>     
-            <ProductCard img={Img3} title='Power Punch Preworkout' body="Said To Contain The Legendary Power Of Iron Mike 
-                Tyson's Uppercut, Power Punch Is The Perfect Way 
-                To Start Your Workout"/>      
+            {cards}   
         </div>
     )
 }
