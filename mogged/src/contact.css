@@ -25,5 +25,46 @@
 }
 
 .contact-form {
-    height: 500px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.form-headers {
+    font-family: 'Black Ops One', cursive;
+    font-size: 30px;
+}
+
+.form-input {
+    margin-top: 15px;
+    font-size: 25px;
+    background-color: white;
+    border: none;
+    width: 50%;
+}
+
+.form-text {
+    margin-top: 15px;
+    background-color: white;
+}
+
+.form-button-con {
+    display: flex;
+    justify-content: center;
+}
+
+.form-button {
+    font-family: 'Black Ops One', cursive;
+    font-size: 35px;
+    height: 60px;
+    line-height: 20px;
+    width: 25%;
+    color: #3D0D7C;
+    background-color: #C9FF14;
+    border-radius: 50px;
+}
+
+.form-button:hover {
+    background-color: black;
+    border: 1px solid #C9FF14;
+    color: #C9FF14;
 }
