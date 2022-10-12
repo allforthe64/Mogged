@@ -1,7 +1,9 @@
+import Socials from './Socials'
 export default function Contact () {
     return (
-        <div>
-            <h1>Get In Touch</h1>
+        <div className='white-background'>
+            <h1 className='spacer-3 purple contact-header-1'>Get In Touch</h1>
+            <Socials className='spacer-4'/>
         </div>
     )
 }
