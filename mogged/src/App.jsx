@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import './home.css'
 import './contact.css'
+import './shop.css'
 import {Route, Routes} from "react-router-dom"
 
 //component imports

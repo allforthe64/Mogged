@@ -10,7 +10,7 @@ function Nav() {
               <span className='nav-logo-text'>Mogged</span>
             </Link>
             <ul className='nav-list'>
-                <Link className='nav-el' to='/shop'>Shop Now</Link>
+                <Link className='nav-el' to='/products'>Shop Now</Link>
                 <Link className='nav-el' to='/contact'>Contact</Link>
             </ul>
         </nav>

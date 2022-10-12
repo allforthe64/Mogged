@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.shop-header {
+    font-family: 'Black Ops One', cursive;
+    font-size: 100px;
+}
+
+.shop-caption {
+    font-family: 'Black Ops One', cursive;
+    font-size: 25px;
+}
