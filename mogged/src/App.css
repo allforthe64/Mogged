@@ -52,6 +52,11 @@
   background-color: #3D0D7C;
 }
 
+.acid-background {
+  background-color: #C9FF14;
+}
+
+
 .card {
   padding: 2em;
 }
@@ -77,6 +82,14 @@
   margin-top: 100px;
 }
 
+.spacer-5 {
+  margin-top: 150px;
+}
+
+.spacer-6 {
+  margin-top: 200px;
+}
+
 .spacer-bottom {
   margin-bottom: 10px;
 }
@@ -96,6 +109,10 @@
 
 .spacer-bottom-5 {
   margin-bottom: 100px;
+}
+
+.spacer-bottom-6 {
+  margin-bottom: 150px;
 }
 
 .container {
