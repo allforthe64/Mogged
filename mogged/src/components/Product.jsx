@@ -11,8 +11,20 @@ export default function Product () {
             obj = data[i]
         }
     }
+    
+    console.log(obj)
 
     return (
-        <div></div>
+        <div className="product spacer-3 spacer-bottom-4">
+            <img className="product-img" src={obj.img}></img>
+            <div className="product-info">
+                <h1 className="purple product-header">{obj.product}</h1>
+                <p className="description spacer-2">{obj.description}</p>
+                <div className="order-con">
+                    <p className="price spacer-3">Price: {obj.price}</p>
+                    <button className="acid purple-background add-button">Add To Cart</button>
+                </div>
+            </div>
+        </div>
     )
 }

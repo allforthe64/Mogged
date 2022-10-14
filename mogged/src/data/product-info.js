@@ -8,7 +8,11 @@ export default [
         product: 'Mogged Protein',
         img: img1,
         price: '$75.00',
-        description: 'test description [insert real description at later date]'
+        description: `The OG product that started it all, our tested formula is sure to maximize
+                        your GAINZ and catapult you to champion status on Mount Swolympus. Specially
+                        formulated from the sweat of the Swolympians, wagyu cow milk, and infused with a portion
+                        of the Swoll Spartans legendary fighting spirit, pick up your barrel of Mogged Protein
+                        today and start getting absolutely JACKED.`
     },
     {
         id: 2,

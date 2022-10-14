@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.product {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.product-img {
+    width: 45%;
+    margin-left: 5%;
+}
+
+.product-info {
+    width: 40%;
+}
+
+.product-header {
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    font-size: 60px;
+}
+
+.description {
+    color: black;
+    font-family: 'Noto Sans Mono', monospace;
+    text-align: left;
+    width: 80%;
+    margin-left: 8%;
+}
+
+.price {
+    font-family: 'Black Ops One', cursive;
+    color: black;
+    font-size: 27px;
+}
+
+.order-con {
+    display: flex;
+    width: 80%;
+    margin-left: 8%;
+}
+
+.add-button {
+    width: 40%;
+    font-family: 'Black Ops One', cursive;
+    font-size: 20px;
+    height: 40px;
+    line-height: .9;
+    margin-left: 10%;
+    margin-top: 38px;
+    border-radius: 20px;
+}
+
+.add-button:hover {
+    color: #3D0D7C;
+    background-color: white;
+    border: 1px solid #3D0D7C;
+}
