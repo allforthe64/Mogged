@@ -11,6 +11,7 @@ import HomeMain from './components/home-main'
 import Footer from './components/Footer'
 import Shop from './components/shop'
 import Contact from './components/contact'
+import Product from './components/Product'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
         <Route path='/' element={<HomeMain />} />
         <Route path='/products' element={<Shop />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/item/:id' element={<Product />} />
       </Routes>
       <Footer />
     </div>

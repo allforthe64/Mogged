@@ -4,7 +4,7 @@ import Card from './Card'
 export default function Shop() {
 
     const cards = data.map(product => {
-        return <Card name={product.product} img={product.img}/>
+        return <Card name={product.product} img={product.img} id={product.id}/>
     })
 
     console.log(cards)
