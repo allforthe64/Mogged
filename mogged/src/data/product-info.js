@@ -19,14 +19,21 @@ export default [
         product: 'Cretaceous Creatine',
         img: img2,
         price: '$50.00',
-        description: 'test description [insert real description at later date]'
+        description: `The King of the Tyrant Lizards, long extinct, walks once more in your shoes with
+                        Mogged Cretaceous Creatine. Our formula contains pharmeaceutical grade creatine monohydrate,
+                        plus a sprinkling of ground T-Rex bones harvested from the jungles at the base of Mount Swolympus.
+                        With Mogged Cretaceous Creatine, you'll be sure to build a body as 
+                        muscular and forboding as the King of Lizards.`
     },
     {
         id: 3,
         product: 'Power Punch Preworkout',
         img: img3,
         price: '$35.00',
-        description: 'test description [insert real description at later date]'
+        description: `Sometimes, all you need to kick yourself into workout mode is a good punch in the face. With Mogged 
+                        Power Punch Preworkout, you can get all the punches you like. Our special blend has been 
+                        concocted to deliver you the perfect balance of focus, power, and endurance, so you can crush every single 
+                        workout. Train and win like a boxing champion with Mogged Power Punch Preworkout.`
     },
     {
         id: 4,

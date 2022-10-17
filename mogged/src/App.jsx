@@ -13,9 +13,17 @@ import Footer from './components/Footer'
 import Shop from './components/shop'
 import Contact from './components/contact'
 import Product from './components/Product'
+import Cart from './components/Cart'
 
 function App() {
   const [count, setCount] = useState(0)
+
+  const [cart, setCart] = useState([])
+
+  function addCart () {
+    console.log('click happened')
+    //setCart(prevCart => [...cart, item])
+  }
 
   return (
     <div className="App">
@@ -23,7 +31,8 @@ function App() {
         <Route path='/' element={<HomeMain />} />
         <Route path='/products' element={<Shop />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path='/item/:id' element={<Product />} />
+        <Route path='/item/:id' element={<Product />} func={addCart}/>
+        <Route path='/cart' element={<Cart />} />
       </Routes>
       <Footer />
     </div>
