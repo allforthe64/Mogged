@@ -1,7 +1,8 @@
 import { useParams } from "react-router-dom"
 import data from '../data/product-info'
 
-export default function Product () {
+export default function Product (props) {
+
     let {id} = useParams()
     id = parseInt(id)
     let obj = []
@@ -11,8 +12,6 @@ export default function Product () {
             obj = data[i]
         }
     }
-    
-    console.log(obj)
 
     return (
         <div className="product spacer-3 spacer-bottom-4">
@@ -22,7 +21,7 @@ export default function Product () {
                 <p className="description spacer-2">{obj.description}</p>
                 <div className="order-con">
                     <p className="price spacer-3">Price: {obj.price}</p>
-                    <button className="acid purple-background add-button">Add To Cart</button>
+                    <button className="acid purple-background add-button" onClick={() => props.func('stuff')}>Add To Cart</button>
                 </div>
             </div>
         </div>

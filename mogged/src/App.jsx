@@ -20,9 +20,9 @@ function App() {
 
   const [cart, setCart] = useState([])
 
-  function addCart () {
-    console.log('click happened')
-    //setCart(prevCart => [...cart, item])
+  function addCart (item) {
+    setCart(prevCart => [...prevCart, item])
+    console.log(cart)
   }
 
   return (
@@ -31,8 +31,8 @@ function App() {
         <Route path='/' element={<HomeMain />} />
         <Route path='/products' element={<Shop />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path='/item/:id' element={<Product />} func={addCart}/>
-        <Route path='/cart' element={<Cart />} />
+        <Route path='/item/:id' element={<Product func={addCart}/>} />
+        <Route path='/cart' element={<Cart cart={cart}/>} />
       </Routes>
       <Footer />
     </div>
