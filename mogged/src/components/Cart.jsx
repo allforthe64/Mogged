@@ -1,15 +1,21 @@
-export default function Cart (props) {
+export default function Cart () {
 
     let items = []
+    let cart = localStorage.getItem('cart')
 
-    if (props.cart.length > 0) {
-        items = props.cart[0].split(',')
-    }
+    items = cart.split(',')
 
     console.log(items)
 
+    const inv = items.map(product => {
+        return (
+            <div><p className="purple">{product}</p></div>
+        )
+    })
+
     return (
         <div>
+            {inv}
         </div>
     )
 }

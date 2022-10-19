@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 import './home.css'
@@ -29,7 +29,7 @@ function App() {
     localStorage.setItem('cart', cart)
   }
 
-  console.log(cart)
+  console.log(localStorage.getItem('cart'))
 
 
   return (
@@ -39,7 +39,7 @@ function App() {
         <Route path='/products' element={<Shop />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/item/:id' element={<Product func={addCart}/>} />
-        <Route path='/cart' element={<Cart cart={cart}/>} />
+        <Route path='/cart' element={<Cart />} />
       </Routes>
       <Footer />
     </div>
