@@ -5,6 +5,7 @@ import './home.css'
 import './contact.css'
 import './shop.css'
 import './product.css'
+import './cart.css'
 import {Route, Routes} from "react-router-dom"
 
 //component imports

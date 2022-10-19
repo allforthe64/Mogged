@@ -44,7 +44,7 @@ export default [
     },
     {
         id: 5,
-        product: 'The Grim Lifter Oversized T',
+        product: 'The Grim Lifter Oversized-T',
         img: '',
         price: '$30.00',
         description: 'test description [insert real description at later date]'
