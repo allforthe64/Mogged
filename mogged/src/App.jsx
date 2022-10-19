@@ -18,12 +18,19 @@ import Cart from './components/Cart'
 function App() {
   const [count, setCount] = useState(0)
 
-  const [cart, setCart] = useState([])
+  let cart = []
+
+  if (localStorage.getItem('cart')) {
+    cart = [localStorage.getItem('cart')]
+  } 
 
   function addCart (item) {
-    setCart(prevCart => [...prevCart, item])
-    console.log(cart)
+    cart.push(item)
+    localStorage.setItem('cart', cart)
   }
+
+  console.log(cart)
+
 
   return (
     <div className="App">

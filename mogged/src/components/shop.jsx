@@ -7,8 +7,6 @@ export default function Shop() {
         return <Card name={product.product} img={product.img} id={product.id}/>
     })
 
-    console.log(cards)
-
     return (
         <>
             <div className="container">

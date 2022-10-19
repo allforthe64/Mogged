@@ -21,7 +21,7 @@ export default function Product (props) {
                 <p className="description spacer-2">{obj.description}</p>
                 <div className="order-con">
                     <p className="price spacer-3">Price: {obj.price}</p>
-                    <button className="acid purple-background add-button" onClick={() => props.func('stuff')}>Add To Cart</button>
+                    <button className="acid purple-background add-button" onClick={() => props.func(obj.product)}>Add To Cart</button>
                 </div>
             </div>
         </div>
