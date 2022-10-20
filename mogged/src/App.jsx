@@ -30,7 +30,15 @@ function App() {
     localStorage.setItem('cart', cart)
   }
 
-  console.log(localStorage.getItem('cart'))
+  function removeCart (item) {
+
+    let split = cart[0].split(',')
+
+    const result = split.filter(word => word !== item)
+    localStorage.setItem('cart', result)
+    console.log(localStorage.getItem('cart'))
+    window.location.reload(false)
+  }
 
 
   return (
@@ -40,7 +48,7 @@ function App() {
         <Route path='/products' element={<Shop />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/item/:id' element={<Product func={addCart}/>} />
-        <Route path='/cart' element={<Cart />} />
+        <Route path='/cart' element={<Cart func={removeCart}/>} />
       </Routes>
       <Footer />
     </div>

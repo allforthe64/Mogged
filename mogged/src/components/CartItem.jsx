@@ -2,6 +2,8 @@ import { useState } from "react"
 
 export default function CartItem (props) {
 
+    let func = props.func
+
     const [quant, setQuant] = useState(1)
     let cost = parseFloat(props.price.split('$')[1]).toFixed(2)
 
@@ -15,7 +17,7 @@ export default function CartItem (props) {
     }
 
     return (
-        <div className="spacer-3">
+        <div className="spacer-3" id={props.name}>
             <div className="item-container">
                 <div className="cart-info-con">
                     <p className="purple item-name">{props.name}</p>
@@ -26,7 +28,7 @@ export default function CartItem (props) {
                 <p className="purple quant-count count">{quant}</p>
                 <button className="minus purple-background acid" onClick={() => adjust(-1)}>-</button>
             </div>
-            <p className="remove spacer">Remove Item</p>
+            <p className="remove spacer" onClick={() => func(props.name)}>Remove Item</p>
             <hr className="rule spacer-2"/>
         </div>
     )

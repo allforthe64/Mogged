@@ -1,7 +1,7 @@
 import CartItem from './CartItem'
 import data from '../data/product-info'
 
-export default function Cart () {
+export default function Cart (props) {
 
     let items = []
     let cart = localStorage.getItem('cart')
@@ -24,7 +24,7 @@ export default function Cart () {
         const inv = items.map(product => {
             let price = simplified[count]
             count = count + 1;
-            return <CartItem name={product} price={price}/>
+            return <CartItem name={product} price={price} func={props.func}/>
         })
         return (
             <div>
