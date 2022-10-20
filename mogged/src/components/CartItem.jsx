@@ -17,13 +17,16 @@ export default function CartItem (props) {
     return (
         <div className="spacer-3">
             <div className="item-container">
-                <p className="purple item-name">{props.name}</p>
-                <p className="purple">Price: ${cost * quant}</p>
-                <p className="quant-count quant purple">Quantity:</p>
+                <div className="cart-info-con">
+                    <p className="purple item-name">{props.name}</p>
+                    <p className="purple price">Price: ${cost * quant}</p>
+                </div>
+                <p className="quant-count purple">Quantity:</p>
                 <button className="plus purple-background acid" onClick={() => adjust(1)}>+</button>
                 <p className="purple quant-count count">{quant}</p>
                 <button className="minus purple-background acid" onClick={() => adjust(-1)}>-</button>
             </div>
+            <p className="remove spacer">Remove Item</p>
             <hr className="rule spacer-2"/>
         </div>
     )

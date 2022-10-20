@@ -14,10 +14,16 @@
     font-size: 50px;
 }
 
+.cart-info-con {
+    display: flex;
+    margin-right: auto;
+}
+
 .item-container {
     width: 80%;
     margin-left: 10%;
     display: flex;
+    justify-content: flex-end;
 }
 
 .item-name {
@@ -37,10 +43,6 @@
     line-height: .9;
 }
 
-.quant {
-    margin-left: 40%;
-}
-
 .count {
     margin-left: 1%;
     line-height: 1;
@@ -57,3 +59,14 @@
     margin-left: 1%
 }
 
+.price {
+    font-family: 'Black Ops One', cursive;
+    width: 150px;
+    font-size: 20px;
+}
+
+.remove {
+    margin-left: 10%;
+    color: red;
+    width: 100px;
+}
