@@ -31,11 +31,29 @@
     margin-left: 10%;
 }
 
+.quant-count {
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 20px;
+    line-height: .9;
+}
+
+.quant {
+    margin-left: 40%;
+}
+
+.count {
+    margin-left: 1%;
+    line-height: 1;
+}
+
 .plus, .minus {
     height: 15px;
     font-family: 'Black Ops One', cursive;
     line-height: .2;
     display: flex;
-    margin-left: 10%;
     border-radius: 0;
+    width: 25px;
+    padding-left: 9px;
+    margin-left: 1%
 }
+
