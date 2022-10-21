@@ -10,10 +10,15 @@ export default function CartItem (props) {
     function adjust(ammount) {
 
         if (quant === 0 && ammount === -1) {
-            setQuant(prevQuant => (prevQuant + 1))
+            console.log('entered 0 loop')
+            setQuant(prevQuant => (prevQuant = 0))
+            props.func2(0)
+        } else {
+            console.log('entered reg loop')
+            setQuant(prevQuant => (prevQuant + ammount))
+            props.func2(cost*ammount)
         }
         
-        setQuant(prevQuant => (prevQuant + ammount))
     }
 
     return (

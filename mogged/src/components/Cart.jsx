@@ -1,11 +1,15 @@
 import CartItem from './CartItem'
 import data from '../data/product-info'
+import { Link } from 'react-router-dom'
+import { useState } from "react"
 
 export default function Cart (props) {
 
     let items = []
     let cart = localStorage.getItem('cart')
     let simplified = []
+    let prices = []
+    let initialValue = 0;
     
     if (cart) items = cart.split(',')
 
@@ -17,6 +21,18 @@ export default function Cart (props) {
         }
     }
 
+    for (let i = 0; i < simplified.length; i++) {
+        prices.push(parseInt(simplified[i].split("$")[1]))
+    }
+
+
+    const [total, setTotal] = useState(prices.reduce((previousValue, currentValue) => previousValue + currentValue, initialValue))
+
+    function costAdjust(ammount) {
+        console.log(ammount)
+        setTotal(prevTotal => (prevTotal + ammount))
+    }
+
     if (items.length > 0) {
         
         let count = 0;
@@ -24,13 +40,17 @@ export default function Cart (props) {
         const inv = items.map(product => {
             let price = simplified[count]
             count = count + 1;
-            return <CartItem name={product} price={price} func={props.func}/>
+            return <CartItem name={product} price={price} func={props.func} func2={costAdjust}/>
         })
         return (
             <div>
                 <h1 className='purple cart-header spacer-3 spacer-bottom-4'>Your Cart</h1>
-                <div className='spacer-bottom-4'>
+                <div className='spacer-bottom-3'>
                     {inv}
+                </div>
+                <p className='purple total-price'>Total: ${total}</p>
+                <div className='spacer-bottom-4 spacer-3'>
+                    <Link className='order-button acid'>Order Now</Link>
                 </div>
             </div>
         )

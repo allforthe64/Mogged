@@ -74,3 +74,25 @@
 .remove:hover {
     text-decoration: underline;
 }
+
+.total-price {
+    width: 30%;
+    font-family: 'Black Ops One', cursive;
+    font-size: 30px;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.order-button {
+    font-family: 'Black Ops One', cursive;
+    font-size: 30px;
+    background-color: #3D0D7C;
+    border-radius: 60px;
+    padding: 15px 25px 15px 25px;
+}
+
+.order-button:hover {
+    background-color: white;
+    color: #3D0D7C;
+    border: 1px solid #3D0D7C;
+}
