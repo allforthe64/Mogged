@@ -50,7 +50,7 @@ export default function Cart (props) {
                 </div>
                 <p className='purple total-price'>Total: ${total}</p>
                 <div className='spacer-bottom-4 spacer-3'>
-                    <Link className='order-button acid'>Order Now</Link>
+                    <Link className='order-button acid' to='/confirmed'>Order Now</Link>
                 </div>
             </div>
         )

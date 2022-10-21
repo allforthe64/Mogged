@@ -96,3 +96,34 @@
     color: #3D0D7C;
     border: 1px solid #3D0D7C;
 }
+
+.confirmed-con {
+    width: 80%;
+    background-color: #3D0D7C;
+    margin-left: 10%;
+    border-radius: 50px;
+}
+
+.confirmed-header {
+    font-family: 'Black Ops One', cursive;
+}
+
+.confirmed-text {
+    width: 70%;
+    font-family: 'Noto Sans Mono', monospace;
+    margin-left: 15%;
+}
+
+.confirmed-button {
+    font-family: 'Black Ops One', cursive;
+    font-size: 30px;
+    background-color: #C9FF14;
+    border-radius: 60px;
+    padding: 15px 25px 15px 25px;
+}
+
+.confirmed-button:hover {
+    background-color: black;
+    color: #C9FF14;
+    border: 1px solid #C9FF14;
+}
