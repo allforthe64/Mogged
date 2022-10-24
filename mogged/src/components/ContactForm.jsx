@@ -1,5 +1,8 @@
 import { useRef } from 'react'
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 export default function ContactForm () {
 
     const emailEl = useRef('')
@@ -13,7 +16,7 @@ export default function ContactForm () {
         lName.current.value = ''
         comments.current.value = ''
 
-        
+        toast("Thank You For Your Submission! Your Feedback Is Under Review");
     }
 
     return (
@@ -34,6 +37,8 @@ export default function ContactForm () {
                     </div>
                 </div>
             </div>
+            <ToastContainer position="top-center" autoClose={5000} hideProgressBar={false} newestOnTop={false}
+                    closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover theme="dark"/>
         </div>
     )
 }

@@ -55,7 +55,6 @@ function App() {
         <Route path='/cart' element={<Cart func={removeCart}/>} />
         <Route path='/confirmed' element={<Confirmed func={clearCart}/>} />
       </Routes>
-
     </div>
   )
 }
