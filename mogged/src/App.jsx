@@ -10,7 +10,6 @@ import {Route, Routes} from "react-router-dom"
 
 //component imports
 import HomeMain from './components/home-main'
-import Footer from './components/Footer'
 import Shop from './components/shop'
 import Contact from './components/contact'
 import Product from './components/Product'
@@ -56,7 +55,7 @@ function App() {
         <Route path='/cart' element={<Cart func={removeCart}/>} />
         <Route path='/confirmed' element={<Confirmed func={clearCart}/>} />
       </Routes>
-      <Footer />
+
     </div>
   )
 }
