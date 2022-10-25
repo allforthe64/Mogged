@@ -5,7 +5,7 @@ export default function Section2 () {
 
     const cards = data.map(item => {
         return (
-            <ProductCard img={item.img} title={item.title} body={item.body} key={item.id}/>
+            <ProductCard img={item.img} title={item.title} body={item.body} key={item.id} id={item.id}/>
         )
     })
 

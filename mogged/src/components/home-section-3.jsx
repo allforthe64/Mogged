@@ -1,4 +1,5 @@
 import Cbum from '../assets/Cbum.jpg'
+import { Link } from 'react-router-dom'
 
 export default function Section3 () {
     return (
@@ -10,7 +11,7 @@ export default function Section3 () {
                 beautiful clothes. Don't worry, we've got your back (like always lol). Click the button below 
                 to get your hands on some merch and start swaddling your meaty man meats in 
                 the best attire out there.</p>
-                <button className="home-button-2 spacer-bottom-3">Check It Out</button>
+                <Link to='/products'><button className="home-button-2 spacer-bottom-3">Check It Out</button></Link>
         </div>
     )
 }

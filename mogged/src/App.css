@@ -186,7 +186,8 @@
 
 .footer {
   height: 375px;
-  background-color: #3D0D7C ;
+  background-color: black ;
+  border: 1px solid white;
 }
 
 .icons-con {

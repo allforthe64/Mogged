@@ -34,6 +34,7 @@ function App() {
     if (currentCart.includes(item)) {
       toast("Item already in cart!");
     } else {
+      toast("Item added to cart!");
       cart.push(item)
       localStorage.setItem('cart', cart)
       console.log(cart)
