@@ -10,7 +10,7 @@ export default function Confirmed (props) {
             <h1 className="acid confirmed-header">Thank You For Ordering!</h1>
             <p className="acid confirmed-text spacer-2">Thanks for placing your order with Mogged! We're <b className="acid">PUMPED </b>
                 to be bringing you your high quality products and helping you ascend to <b className="acid">SWOLE CHAMPION STATUS. </b>
-                Your package should be delivered in the next 2-3 business days. What you do with them then is <b>UP TO YOU. </b>
+                Your package should be delivered in the next 2-3 business days. What you do with them then, is <b>UP TO YOU. </b>
                 Good luck soldier.
             </p>
             <div className='spacer-3'>

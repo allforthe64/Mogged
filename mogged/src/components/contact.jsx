@@ -1,5 +1,6 @@
 import Socials from './Socials'
 import ContactForm from './ContactForm'
+
 export default function Contact () {
     return (
         <div className='white-background'>

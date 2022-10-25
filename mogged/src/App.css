@@ -161,12 +161,16 @@
 
 }
 
+.nav-el:hover {
+  color: white
+}
+
 .nav-list {
   display: flex;
   justify-content: flex-end;
   width: 75%;
-  padding-right: 50px;
-  padding-top: 20dpx;
+  padding-right: 75px;
+  padding-top: 20px;
 }
 
 .hero {
@@ -213,6 +217,14 @@
   text-align: center;
   text-decoration: none;
   margin-top: 70px;
+}
+
+.cart {
+  font-size: 25px;
+}
+
+.cart:hover {
+  color: white;
 }
 
 .larger-logo {

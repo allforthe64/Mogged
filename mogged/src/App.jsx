@@ -6,6 +6,7 @@ import './contact.css'
 import './shop.css'
 import './product.css'
 import './cart.css'
+import 'react-toastify/dist/ReactToastify.css';
 import {Route, Routes} from "react-router-dom"
 
 //component imports
@@ -15,6 +16,7 @@ import Contact from './components/contact'
 import Product from './components/Product'
 import Cart from './components/Cart'
 import Confirmed from './components/Confirmed'
+import { ToastContainer, toast } from 'react-toastify';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,9 +28,16 @@ function App() {
   } 
 
   function addCart (item) {
-    cart.push(item)
-    localStorage.setItem('cart', cart)
-    console.log(cart)
+
+    let currentCart = localStorage.getItem('cart')
+
+    if (currentCart.includes(item)) {
+      toast("Item already in cart!");
+    } else {
+      cart.push(item)
+      localStorage.setItem('cart', cart)
+      console.log(cart)
+    }
   }
 
   function removeCart (item) {
@@ -55,6 +64,8 @@ function App() {
         <Route path='/cart' element={<Cart func={removeCart}/>} />
         <Route path='/confirmed' element={<Confirmed func={clearCart}/>} />
       </Routes>
+      <ToastContainer position="top-center" autoClose={5000} hideProgressBar={false} newestOnTop={false}
+                    closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover theme="dark"/>
     </div>
   )
 }
