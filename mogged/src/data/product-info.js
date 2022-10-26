@@ -1,8 +1,9 @@
 import img1 from '../assets/protein.png'
 import img2 from '../assets/creatine.png'
 import img3 from '../assets/preworkout.png'
-
+import img4 from '../assets/swolympus.png'
 import img5 from '../assets/reaper.png'
+import img6 from '../assets/spartanShirt.png'
 
 export default [
     {
@@ -40,22 +41,22 @@ export default [
     {
         id: 4,
         product: 'Mogged Swolympus T-Shirt',
-        img: '',
+        img: img4,
         price: '$20.00',
         description: 'test description [insert real description at later date]'
     },
     {
         id: 5,
-        product: 'The Grim Lifter Oversized-T',
+        product: 'The Grim Lifter Hoodie',
         img: img5,
-        price: '$30.00',
+        price: '$75.00',
         description: 'test description [insert real description at later date]'
     },
     {
         id: 6,
-        product: 'Swole Spartan Hoodie',
-        img: '',
-        price: '$75.00',
+        product: 'Swole Spartan Oversized-T',
+        img: img6,
+        price: '$30.00',
         description: 'test description [insert real description at later date]'
     }
 ]
