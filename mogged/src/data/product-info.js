@@ -2,6 +2,8 @@ import img1 from '../assets/protein.png'
 import img2 from '../assets/creatine.png'
 import img3 from '../assets/preworkout.png'
 
+import img5 from '../assets/reaper.png'
+
 export default [
     {
         id: 1,
@@ -45,7 +47,7 @@ export default [
     {
         id: 5,
         product: 'The Grim Lifter Oversized-T',
-        img: '',
+        img: img5,
         price: '$30.00',
         description: 'test description [insert real description at later date]'
     },
