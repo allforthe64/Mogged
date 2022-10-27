@@ -52,7 +52,7 @@ export default [
         product: 'The Grim Lifter Hoodie',
         img: img5,
         price: '$75.00',
-        description: `Noone escapes death. As such, death never stops training for his endless chasing of souls. We couldn't think 
+        description: `No one escapes death. As such, death never stops training for his endless chasing of souls. We couldn't think 
                         of a tale more inspiring or befitting of our ethos. So we put it on a hoodie. Boom son. Get one and wrap your
                         pecs in a garmet worthy of death himself.`
     },
