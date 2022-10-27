@@ -64,6 +64,6 @@ export default [
         description: `The single most jacked individual to walk the face of planet Earth, the Swole Spartan
                         is the savior we need. Made from a blend of organic Alpaca wool and high quality synthetic material, this shirt is the
                         softest you'll ever wear. To top it off, we emblazened it with
-                        an image of the the Swole Spartan taken from sacred texts to inspire you on your next workout.`
+                        an image of the the Swole Spartan, taken from sacred texts. We hope his juicy bod might inspire you on your next workout.`
     }
 ]

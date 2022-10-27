@@ -4,6 +4,14 @@
     padding: 0;
 }
 
+.inputs {
+    width: 60%;
+}
+
+.contact-div-left {
+    width: 40%;
+}
+
 .socials-div {
     width: 80%;
     text-align: left;
@@ -17,6 +25,8 @@
 .contact-header-2 {
     font-family: 'Black Ops One', cursive;
     font-size: 50px;
+    text-align: left;
+    padding-left: 3%;
 }
 
 .contact-form-container {
@@ -27,6 +37,7 @@
 .contact-form {
     padding-left: 50px;
     padding-top: 30px;
+    display: flex;
 }
 
 .form-headers {
@@ -62,7 +73,7 @@
     font-size: 35px;
     height: 60px;
     line-height: 20px;
-    width: 25%;
+    width: 30%;
     color: #3D0D7C;
     background-color: #C9FF14;
     border-radius: 50px;
@@ -73,3 +84,8 @@
     border: 1px solid #C9FF14;
     color: #C9FF14;
 }
+
+.icons-con-2 {
+    display: flex;
+    margin-top: 5%;
+  }
