@@ -23,7 +23,7 @@ export default function Shop() {
                     {cards[1]}
                     {cards[2]}
             </div>
-            <div className='container spacer-6'>
+            <div className='container space-boi'>
                 <p className='purple shop-header-2'>Clothing</p>
             </div>
             <div className='card-container spacer-3 spacer-bottom-6'>

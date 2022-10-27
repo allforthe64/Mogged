@@ -217,7 +217,7 @@
 
 }  
 
-@media screen and (max-width: 767px) and (min-width: 690px) {
+@media screen and (max-width: 767px) and (min-width: 700px) {
 
     .home-header-1 {
         font-size: 85px;
@@ -273,5 +273,9 @@
         font-size: 25px;
     }
 
+}
+
+@media screen and (max-width: 699px) {
+    
 }
 

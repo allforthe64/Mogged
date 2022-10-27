@@ -22,12 +22,10 @@
 .card-container {
     display: flex;
     justify-content: space-evenly;
-    width: 80%;
-    margin-left: 10%;
 }
 
 .card {
-    width: 325px;
+    width: 30%;
     height: 230px;
     padding: 0;
     background-color: rgb(43, 43, 43);
@@ -52,4 +50,76 @@
     width: 100%;
     height: 75%;
     border: 1px solid black;
+}
+
+.space-boi {
+    margin-top: 150px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 920px) {
+    .shop-header {
+        font-size: 65px;
+    }
+
+    .space-boi {
+        margin-top: 150px;
+    }
+}
+
+@media screen and (min-width: 580px) and (max-width: 767px) {
+    .shop-header {
+        font-size: 65px;
+    }
+
+    .shop-header-2 {
+        font-size: 40px;
+    }
+
+    .space-boi {
+        margin-top: 100px;
+    }
+
+    .card {
+        height: 200px;
+    }
+
+    .Link {
+        font-size: 10px;
+    }
+
+    .shop-caption {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .card-img-shop {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 579px) {
+
+    .shop-header {
+        font-size: 50px;
+    }
+    
+    .shop-header-2 {
+        font-size: 35px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .card {
+        width: 60%;
+        margin-top: 50px;
+    }
+
+    .space-boi {
+        margin-top: 75px;
+    }
 }
