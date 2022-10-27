@@ -237,3 +237,47 @@
     line-height: 32px;
     font-family: 'Black Ops One', cursive;
 }
+
+@media screen and (min-width: 768px) and (max-width:920px) {
+
+  .nav-list {
+    padding-right: 25px;
+  }
+
+  .nav-el {
+    margin-right: 30px;
+    font-size: 22px;
+  }
+
+  .cart {
+    font-size: 22px;
+  }
+
+}
+
+@media screen and (min-width: 475px) and (max-width: 767px) {
+  .spacer-4 {
+    margin-top: 75px;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .nav-logo {
+    width: 40px;
+    height: 60px;
+  }
+
+  
+  .nav-logo-text {
+    font-size: 40px;
+  }
+
+}
+
+@media screen and (max-width: 474px) {
+  .nav-list {
+    display: none;
+  }
+}

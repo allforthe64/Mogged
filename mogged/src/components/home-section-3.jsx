@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Section3 () {
     return (
         <div className="sec-3-main">
-            <h1 className="home-header-1 spacer-3 purple">Mogged Merch</h1>
+            <h1 className="home-header-1 spacer-3 purple sec-3-header">Mogged Merch</h1>
             <img src={Cbum} className='spacer-3 sec-3-img'/>
             <p className="mogged-text-2 purple spacer-3 spacer-bottom-3">Mogged isn't just a supplement company. We want you to look your absolute swollest at all times. 
                 Enter mogged's line of premium t-shirts and hoodies. A beautiful body deserves to be draped with 
