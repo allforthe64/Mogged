@@ -43,20 +43,27 @@ export default [
         product: 'Mogged Swolympus T-Shirt',
         img: img4,
         price: '$20.00',
-        description: 'test description [insert real description at later date]'
+        description: `The place where it all began, Swolympus is a shining beacon in the clouds, beckoning to all those who train.
+                        Now, you can wear it on your chest as a reminder of the heights you seek to attain. Don't settle for less. 
+                        Secure yourself some OG swag with the Mogged Swolympus T-Shirt.`
     },
     {
         id: 5,
         product: 'The Grim Lifter Hoodie',
         img: img5,
         price: '$75.00',
-        description: 'test description [insert real description at later date]'
+        description: `Noone escapes death. As such, death never stops training for his endless chasing of souls. We couldn't think 
+                        of a tale more inspiring or befitting of our ethos. So we put it on a hoodie. Boom son. Get one and wrap your
+                        pecs in a garmet worthy of death himself.`
     },
     {
         id: 6,
         product: 'Swole Spartan Oversized-T',
         img: img6,
         price: '$30.00',
-        description: 'test description [insert real description at later date]'
+        description: `The single most jacked individual to walk the face of planet Earth, the Swole Spartan
+                        is the savior we need. Made from a blend of organic Alpaca wool and high quality synthetic material, this shirt is the
+                        softest you'll ever wear. To top it off, we emblazened it with
+                        an image of the the Swole Spartan taken from sacred texts to inspire you on your next workout.`
     }
 ]

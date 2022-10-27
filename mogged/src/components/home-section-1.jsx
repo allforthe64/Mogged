@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function Section1 () {
     return (
         <div className="sec-1-main">
@@ -19,7 +21,7 @@ export default function Section1 () {
             beginnings. Mogged believes that with the right <b className="acid">MINDSET, TRAINING, AND SUPPLEMENTS, </b>you can forge a 
             body worthy of Champion status on Mount Swolympus. So what are you waiting for? Glory doesn't come to 
             those who dont train. Get up, hit the weights, grab some mogged, and start getting <b className="acid">YOUR SWOLLEST.</b></p>
-            <button className="home-button-1 spacer-bottom-3">Browse The Line</button>
+            <Link to='/products'><button className="home-button-1 spacer-bottom-3">Browse The Line</button></Link>
         </div>
     )
 }
