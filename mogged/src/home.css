@@ -160,7 +160,7 @@
 }
 
 
-@media screen and (min-width: 768px) and (max-width:920px) { 
+@media screen and (min-width: 768px) and (max-width:1000px) { 
     
     .home-header-1 {
         font-size: 100px;
@@ -275,7 +275,134 @@
 
 }
 
-@media screen and (max-width: 699px) {
-    
+@media screen and (max-width: 699px) and (min-width: 575px) {
+    .home-header-1 {
+        font-size: 65px;
+    }
+
+    .home-subheadings {
+        font-size: 25px;
+    }
+
+    .mogged-text {
+        font-size: 15px;
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    .home-button-1 {
+        font-size: 22px;
+    }
+
+    /*home section 2*/
+
+    .productCard {
+        height: 400px;
+    }
+
+    .card-info {
+        bottom: 90%;
+    }
+
+    .home-header-2 {
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .card-header {
+        font-size: 23px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+
+    .card-button {
+        font-size: 16px;
+        width: 70%;
+    }
+
+    .sec-2-con {
+        margin-bottom: 0px;
+    }
+
+    /*home section 3*/
+
+    .mogged-text-2 {
+        font-size: 18px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .home-button-2 {
+        font-size: 25px;
+    }
 }
 
+@media screen and (max-width: 574px) {
+    .home-header-1 {
+        font-size: 65px;
+    }
+
+    .home-subheadings {
+        font-size: 25px;
+    }
+
+    .mogged-text {
+        font-size: 12px;
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    .home-button-1 {
+        font-size: 22px;
+    }
+
+    /*home section 2*/
+
+    .productCard {
+        height: 400px;
+    }
+
+    .card-info {
+        bottom: 98%;
+    }
+
+    .home-header-2 {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .card-header {
+        font-size: 18px;
+    }
+
+    .card-text {
+        font-size: 9px;
+    }
+
+    .card-button {
+        font-size: 12px;
+        width: 70%;
+    }
+
+    .sec-2-con {
+        margin-bottom: 0px;
+    }
+
+    /*home section 3*/
+
+    .mogged-text-2 {
+        font-size: 18px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .mogged-text-3 {
+        font-size: 10px;
+      }
+
+    .home-button-2 {
+        font-size: 25px;
+    }
+}

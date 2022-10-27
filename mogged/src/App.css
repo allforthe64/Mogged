@@ -273,6 +273,9 @@
   .nav-logo-text {
     font-size: 40px;
   }
+  .footer-tag {
+    font-size: 10px;
+  }
 
 }
 
@@ -280,4 +283,18 @@
   .nav-list {
     display: none;
   }
+
+  .nav-logo {
+    width: 40px;
+    height: 60px;
+    margin-left: 20px;
+  }
+
+  .nav-logo-text {
+    font-size: 30px;
+  }
+  .footer-tag {
+    font-size: 10px;
+  }
+
 }
