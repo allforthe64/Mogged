@@ -128,6 +128,10 @@
     border: 1px solid #C9FF14;
 }
 
+.quant-con {
+    display: flex;
+}
+
 @media screen and (max-width: 968px) and (min-width: 768px) {
     
     .item-container {
@@ -186,6 +190,18 @@
 
     .minus {
         margin-left: 5%;
+    }
+
+    .confirmed-header {
+        font-size: 40px;
+    }
+
+    .confirmed-text {
+        font-size: 14px;
+    }
+
+    .confirmed-button {
+        font-size: 20px;
     }
 
 }
@@ -251,6 +267,18 @@
 
     .count {
         margin-left: 5%;
+    }
+
+    .confirmed-header {
+        font-size: 25px;
+    }
+
+    .confirmed-text {
+        font-size: 12px;
+    }
+
+    .confirmed-button {
+        font-size: 18px;
     }
 
 }
