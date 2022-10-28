@@ -32,7 +32,7 @@
     margin-left: 8%;
 }
 
-.price {
+.price-product {
     font-family: 'Black Ops One', cursive;
     color: black;
     font-size: 27px;
@@ -59,4 +59,211 @@
     color: #3D0D7C;
     background-color: white;
     border: 1px solid #3D0D7C;
+}
+
+.product-header-alt {
+    display: none;
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    font-size: 60px;
+}
+
+@media screen and (max-width: 1215px) and (min-width: 950px) {
+
+    .product-header-alt {
+        display: none;
+    }
+
+    .product-header {
+        font-size: 40px;
+    }
+
+    .add-button {
+        font-size: 17px;
+        line-height: normal;
+        width: 60%;
+    }
+
+    .price-product {
+        font-size: 20px;
+        margin-top: 35px;
+    }
+    
+}
+
+@media screen and (max-width: 949px) and (min-width: 786px) {
+    
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-img {
+        width: 80%;
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+
+    .product-header {
+        display: none;
+    }
+
+    .product-header-alt {
+        font-size: 60px;
+        display: block;
+    }
+
+    .product-info {
+        width: 80%;
+    }
+
+    .description {
+        text-align: left;
+        width: 80%;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .order-con {
+        margin-left: 0px;
+    }
+
+}
+
+@media screen and (max-width: 785px) and (min-width: 541px) {
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-img {
+        width: 80%;
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+
+    .product-header {
+        display: none;
+    }
+
+    .product-header-alt {
+        font-size: 50px;
+        display: block;
+    }
+
+    .product-info {
+        width: 80%;
+    }
+
+    .description {
+        text-align: center;
+        width: 100%;
+        margin-left: 0px;
+        font-size: 16px;
+    }
+
+    .order-con {
+        align-items: center;
+        width: 100%;
+    }   
+}
+
+@media screen and (max-width: 540px) and (min-width: 393px) {
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-img {
+        width: 80%;
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+
+    .product-header {
+        display: none;
+    }
+
+    .product-header-alt {
+        font-size: 30px;
+        display: block;
+    }
+
+    .product-info {
+        width: 80%;
+    }
+
+    .description {
+        text-align: center;
+        width: 100%;
+        margin-left: 0px;
+        font-size: 12px;
+    }
+
+    .order-con {
+        align-items: center;
+        width: 100%;
+        margin-left: 0px;
+    }   
+    
+    .add-button {
+        font-size: 17px;
+        line-height: normal;
+        width: 50%;
+    }
+
+    .price-product {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 392px) {
+    
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-img {
+        width: 80%;
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+
+    .product-header {
+        display: none;
+    }
+
+    .product-header-alt {
+        font-size: 30px;
+        display: block;
+    }
+
+    .product-info {
+        width: 80%;
+    }
+
+    .description {
+        text-align: center;
+        width: 100%;
+        margin-left: 0px;
+        font-size: 12px;
+    }
+
+    .order-con {
+        align-items: center;
+        width: 100%;
+        margin-left: 0px;
+    }   
+    
+    .add-button {
+        font-size: 15px;
+        line-height: normal;
+        width: 50%;
+    }
+
+    .price-product {
+        font-size: 15px;
+    }
+
 }
