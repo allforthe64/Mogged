@@ -32,7 +32,7 @@ export default function ContactForm () {
                         <p className='acid form-headers spacer-3'>Last Name</p>
                         <input type='text' className="form-input" ref={lName}/>
                         <p className='acid form-headers spacer-3'>Comments</p>
-                        <textarea rows='7' cols='50' className="form-text spacer-bottom-3" ref={comments}></textarea>
+                        <textarea rows='7' className="form-text spacer-bottom-3" ref={comments}></textarea>
                         <div className="form-button-con spacer">
                             <button className="spacer-bottom-3 form-button" onClick={() => clearForm()}>Submit</button>
                         </div>
