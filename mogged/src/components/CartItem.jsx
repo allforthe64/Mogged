@@ -26,10 +26,12 @@ export default function CartItem (props) {
                     <p className="purple item-name">{props.name}</p>
                     <p className="purple price">Price: ${cost * quant}</p>
                 </div>
-                <p className="quant-count purple">Quantity:</p>
-                <button className="minus purple-background acid" onClick={() => adjust(-1)}>-</button>
-                <p className="purple quant-count count">{quant}</p>
-                <button className="plus purple-background acid" onClick={() => adjust(1)}>+</button>
+                <div className="quant-con">
+                    <p className="quant-count purple">Quantity:</p>
+                    <button className="minus purple-background acid" onClick={() => adjust(-1)}>-</button>
+                    <p className="purple quant-count count">{quant}</p>
+                    <button className="plus purple-background acid" onClick={() => adjust(1)}>+</button>
+                </div>
             </div>
             <p className="remove spacer" onClick={() => func(props.name)}>Remove Item</p>
             <hr className="rule spacer-2"/>

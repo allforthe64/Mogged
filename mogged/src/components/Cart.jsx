@@ -40,7 +40,7 @@ export default function Cart (props) {
         const inv = items.map(product => {
             let price = simplified[count]
             count = count + 1;
-            return <CartItem name={product} price={price} func={props.func} func2={costAdjust}/>
+            return <CartItem name={product} price={price} func={props.func} func2={costAdjust} key={count}/>
         })
         return (
             <div>
@@ -49,7 +49,7 @@ export default function Cart (props) {
                     {inv}
                 </div>
                 <p className='purple total-price'>Total: ${total}</p>
-                <div className='spacer-bottom-4 spacer-3'>
+                <div className='spacer-bottom-4 spacer-3 cart-button-con-main'>
                     <Link className='order-button acid' to='/confirmed'>Order Now</Link>
                 </div>
             </div>
