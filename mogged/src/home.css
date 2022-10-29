@@ -70,14 +70,6 @@
     font-family: 'Black Ops One', cursive;
 }
 
-.mogged-text-3 {
-    width: 80%;
-    font-size: 35px;
-    line-height: 32px;
-    font-family: 'Black Ops One', cursive;
-    text-align: left;
-}
-
 .home-button-1 {
     font-size: 30px;
     border-radius: 40px;
@@ -397,10 +389,6 @@
         width: 90%;
         text-align: center;
     }
-
-    .mogged-text-3 {
-        font-size: 10px;
-      }
 
     .home-button-2 {
         font-size: 25px;

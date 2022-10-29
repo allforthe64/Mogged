@@ -8,10 +8,10 @@ export default function Footer () {
             </div>
             <div className="contact-con spacer-2">
                 <p className="acid mogged-text-3">+1-800-GET-SWOLE</p>
-                <p className="acid mogged-text-3 spacer">mogged@gmail.com</p>
+                <p className="acid mogged-text-3 spacer-2">mogged@gmail.com</p>
             </div>
             <br/>
-            <p className="acid spacer-3 footer-tag">Mogged Supplements All Rights Reserved 2022</p>
+            <p className="acid spacer-2 footer-tag">Mogged Supplements All Rights Reserved 2022</p>
         </div>
     )
 }

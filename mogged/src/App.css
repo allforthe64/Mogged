@@ -238,6 +238,14 @@
     font-family: 'Black Ops One', cursive;
 }
 
+.mogged-text-3 {
+  width: 80%;
+  font-size: 35px;
+  line-height: 32px;
+  font-family: 'Black Ops One', cursive;
+  text-align: left;
+}
+
 @media screen and (min-width: 768px) and (max-width:920px) {
 
   .nav-list {
@@ -252,6 +260,26 @@
   .cart {
     font-size: 22px;
   }
+
+  .mogged-text-3 {
+    font-size: 30px;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 70px;
+  }
+
+  .icons-con {
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
 
 }
 
@@ -274,8 +302,29 @@
     font-size: 40px;
   }
   .footer-tag {
-    font-size: 10px;
+    font-size: 15px;
   }
+
+  .mogged-text-3 {
+    font-size: 25px;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 35px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 70px;
+  }
+
+  .icons-con {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    margin-left: 15px;
+  }
+
 
 }
 
@@ -295,6 +344,26 @@
   }
   .footer-tag {
     font-size: 10px;
+  }
+
+  .mogged-text-3 {
+    font-size: 20px;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 35px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 70px;
+  }
+
+  .icons-con {
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    margin-left: 2px;
   }
 
 }
