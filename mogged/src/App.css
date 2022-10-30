@@ -292,6 +292,19 @@
 }
 
 @media screen and (min-width: 475px) and (max-width: 767px) {
+  
+  .nav-button-2 {
+    display: block;
+    border: 1px solid #C9FF14;
+  }
+
+  .nav-button-con {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+  }
+
   .spacer-4 {
     margin-top: 75px;
   }
@@ -356,6 +369,19 @@
 }
 
 @media screen and (max-width: 474px) {
+
+  .nav-button-2 {
+    display: block;
+    border: 1px solid #C9FF14;
+  }
+
+  .nav-button-con {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+  }
+
   .nav-list {
     display: none;
   }

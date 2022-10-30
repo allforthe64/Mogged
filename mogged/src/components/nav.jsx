@@ -4,10 +4,10 @@ import '../App.css'
 import moggedLogo from '../assets/logo.png'
 
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import { faCartShopping, faBars} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-library.add(faCartShopping);
+library.add(faCartShopping, faBars);
 
 function Nav() {
 
@@ -41,7 +41,9 @@ function Nav() {
                     <Link className='nav-el' to='/contact'>Contact</Link>
                     <Link to='/cart'><FontAwesomeIcon icon="fas fa-shopping-cart" className='cart acid' /></Link>
                 </ul>
-                <button onClick={() => hide()} className='nav-button-2'></button>
+                <div className='nav-button-con'>
+                    <button onClick={() => hide()} className='nav-button-2'><FontAwesomeIcon icon={faBars} className='acid'/></button>
+                </div>
             </nav>
             <div className='nav-2' style={show}>
                 <div className='link-holder spacer-1'>
