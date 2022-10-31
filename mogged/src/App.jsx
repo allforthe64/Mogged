@@ -25,6 +25,7 @@ function App() {
 
   if (localStorage.getItem('cart')) {
     cart = [localStorage.getItem('cart')]
+    console.log(cart)
   } 
 
   function addCart (item) {
@@ -43,9 +44,11 @@ function App() {
 
   function removeCart (item) {
 
-    let split = cart[0].split(',')
+    console.log(typeof item)
 
+    let split = localStorage.getItem('cart').split(',') 
     const result = split.filter(word => word !== item)
+    console.log(result)
     localStorage.setItem('cart', result)
     console.log(localStorage.getItem('cart'))
     window.location.reload(false)
