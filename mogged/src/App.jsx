@@ -26,7 +26,10 @@ function App() {
   if (localStorage.getItem('cart')) {
     cart = [localStorage.getItem('cart')]
     console.log(cart)
-  } 
+  } else {
+    console.log('cart empty')
+    localStorage.setItem('cart', cart)
+  }
 
   function addCart (item) {
 
