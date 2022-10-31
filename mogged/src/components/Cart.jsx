@@ -29,7 +29,6 @@ export default function Cart (props) {
     const [total, setTotal] = useState(prices.reduce((previousValue, currentValue) => previousValue + currentValue, initialValue))
 
     function costAdjust(ammount) {
-        console.log(ammount)
         setTotal(prevTotal => (prevTotal + ammount))
     }
 

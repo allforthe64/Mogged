@@ -2,8 +2,6 @@ import { Link } from 'react-router-dom'
 
 export default function Confirmed (props) {
 
-    props.func()
-
     return (
         <div className="confirmed-con spacer-4 spacer-bottom-4">
             <br/>
@@ -14,7 +12,7 @@ export default function Confirmed (props) {
                 Good luck soldier.
             </p>
             <div className='spacer-3'>
-                <Link className='confirmed-button purple' to='/'>Back To Home</Link>
+                <Link className='confirmed-button purple' to='/' onClick={() => props.func()}>Back To Home</Link>
             </div>
             <br/>
             <br/>

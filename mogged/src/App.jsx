@@ -7,7 +7,7 @@ import './shop.css'
 import './product.css'
 import './cart.css'
 import 'react-toastify/dist/ReactToastify.css';
-import {Route, Routes} from "react-router-dom"
+import {Route, Routes, useNavigate} from "react-router-dom"
 
 //component imports
 import HomeMain from './components/home-main'
@@ -19,15 +19,13 @@ import Confirmed from './components/Confirmed'
 import { ToastContainer, toast } from 'react-toastify';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const navigate = useNavigate()
 
   let cart = []
 
   if (localStorage.getItem('cart')) {
     cart = [localStorage.getItem('cart')]
-    console.log(cart)
   } else {
-    console.log('cart empty')
     localStorage.setItem('cart', cart)
   }
 
@@ -41,24 +39,19 @@ function App() {
       toast("Item added to cart!");
       cart.push(item)
       localStorage.setItem('cart', cart)
-      console.log(cart)
     }
   }
 
   function removeCart (item) {
-
-    console.log(typeof item)
-
     let split = localStorage.getItem('cart').split(',') 
     const result = split.filter(word => word !== item)
-    console.log(result)
     localStorage.setItem('cart', result)
-    console.log(localStorage.getItem('cart'))
     window.location.reload(false)
   }
 
   function clearCart() {
     localStorage.setItem('cart', [])
+    navigate('/')
   }
 
   return (
