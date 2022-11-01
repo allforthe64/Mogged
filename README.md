@@ -4,7 +4,7 @@ I was hired by a representative of a canoe building comapny called ARE Tahiti Ou
 displaying content compared to the old site, and look good on any screen size. Working within those parameters, this is what I built: 
 <br>
 <br>
-<img width='50%' src='https://media.giphy.com/media/Vwf0G57SrWa4bqkouc/giphy.gif' style='margin-left: 25%'/>
+<img width='50%' src='https://media.giphy.com/media/Vwf0G57SrWa4bqkouc/giphy.gif' align='center'/>
 <br>
 <h1>How It's Made:</h1>
 <br>
