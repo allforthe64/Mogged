@@ -1,7 +1,8 @@
 <h1>Lifting Heavy Weights and Writing Lightweight Code</h1>
 <br>
-I was hired by a representative of a canoe building comapny called ARE Tahiti Outrigger to redesign their old website. I was asked to make the new site load quickly, do a better job of
-displaying content compared to the old site, and look good on any screen size. Working within those parameters, this is what I built: 
+I am a huge gym rat. Something about going to the gym, racking up an absurd ammount of weight, and simply tring to lift it up and down speaks to me. But one thing I 
+don't enjoy, is writing complex, heavy code. So I decided to learn ReactJS :p. I knew going in that React would allowing to write lighter, easier to read code and I had a brilliant idea: why not use the power of lightweight code to build a website about jacking heavy weights? And just like that, the Mogged
+Supplement Company was born. Read on to see how I combined two of my passions into one epic project:
 <br>
 <br> 
 <div align='center'>
