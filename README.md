@@ -5,6 +5,8 @@ don't enjoy, is writing complex, heavy code. So I decided to learn ReactJS :p. I
 Supplement Company was born. Read on to see how I combined two of my passions into one epic project:
 <br>
 <br> 
+<br>
+<br>
 <div align='center'>
   <img width='50%' src='https://media.giphy.com/media/Vwf0G57SrWa4bqkouc/giphy.gif'/>
 </div>
