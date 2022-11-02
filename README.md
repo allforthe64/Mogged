@@ -14,12 +14,11 @@ Supplement Company was born. Read on to see how I combined two of my passions in
 <h1>How It's Made:</h1>
 <br>
 
-**Tech Used:** Adobe XD, HTML, CSS, JavaScript, Django, Bootstrap and SQLite
+**Tech Used:** Adobe XD, HTML, CSS, ReactJS
 <br>
-<p>I started by building out prototypes and reviewing them with the client to hammer out the design
-of the new site. Once that was completed, I got to work blocking out the website in HTML and CSS.
-I used Bootstrap for the navbar as well as the image carousels on the individual boat pages. Aside
-from that, I wrote all of the HTML and CSS from scratch.</p>
+<p>I started by building out prototypes in Adobe XD. This project was very brand focus, so I made sure to make each page convey the image and brand
+of the company. I also kept my target audience at the forefront of my thoughts, making sure the pages had the boldness and over the top styling I was 
+looking for.</p>
 <br>
 <p>One of the clients biggest priorites was mobile responsiveness, so a lot of time was put into making 
 sure that all of the elements scall properly to keep the pages looking nice and clean. Once I had the
