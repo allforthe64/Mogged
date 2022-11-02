@@ -1,7 +1,7 @@
 <h1>Lifting Heavy Weights and Writing Lightweight Code</h1>
 <br>
 I am a huge gym rat. Something about going to the gym, racking up an absurd ammount of weight and trying to lift it speaks to me. But one thing I 
-don't enjoy, is writing complex, heavy code. So I decided to learn ReactJS :p. I knew going in that React would allowing to write lighter, easier to read code and I had a brilliant idea: why not use the power of lightweight code to build a website about jacking heavy weights? And just like that, the Mogged
+don't enjoy, is writing complex, heavy code. So I decided to learn ReactJS :p. I knew going in that React would allow me to write lighter, easier to read code and I had a brilliant idea: why not use the power of lightweight code to build a website about jacking heavy weights? And just like that, the Mogged
 Supplement Company was born. Read on to see how I combined two of my passions into one epic project:
 <br>
 <br> 
@@ -20,15 +20,9 @@ Supplement Company was born. Read on to see how I combined two of my passions in
 of the company. I also kept my target audience at the forefront of my thoughts, making sure the pages had the boldness and over the top styling I was 
 looking for.</p>
 <br>
-<p>One of the clients biggest priorites was mobile responsiveness, so a lot of time was put into making 
-sure that all of the elements scall properly to keep the pages looking nice and clean. Once I had the
-site blocked out, I set up the SQLite database, using the Django model system. The site uses an API I built to manage
-and display the companies inventory using Django's built in admin interface.</p>
+<p>Since I was using this project as a functional way to flex my new React skills, I wanted to make sure I had a variety of diverse features. Mogged is built using exclusively functional components which I really enjoyed writing. Having the ability to write Javascript code and markup code in the same final was a huge advantage gained over regular HTML/Javascript. I also wanted to take advantage of React's ability to easily implement single page web design to help speed up load times and simplify the building process. I hooked up all my pages using the react-router-dom library.</p>
 <br>
-<p>After I completed the API and invetory system, I moved on to writing the JavaScript functionality. The
-client needed to the website to be translated into multiple langauges, so I wrote function to handle swapping 
-the languages when a user clicks a button. This was done by translating each block of text into different languages
-and turning them off when the user selects a new langauge.</p>
+<p>To build the shop and shopping cart pages, I again took advantage of React's blend of Javascript and markup. Using map methods, I dynamically generated components based on information stored in JSON finals. This is also how I created the three main product cards on the Mogged homepage.</p>
 <br>
 <p>And finally, I created a checkout system for the site using the PayPal developer API. All of 
 code was taken from the PayPal website. This is to ensure that the code was secured and none of the 
