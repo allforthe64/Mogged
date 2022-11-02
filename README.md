@@ -16,7 +16,7 @@ Supplement Company was born. Read on to see how I combined two of my passions in
 
 **Tech Used:** Adobe XD, HTML, CSS, ReactJS
 <br>
-<p>I started by building out prototypes in Adobe XD. This project was very brand focus, so I made sure to make each page convey the image and brand
+<p>I started by building out prototypes in Adobe XD. This project was very brand focus, so I made sure to make each page convey the image and message
 of the company. I also kept my target audience at the forefront of my thoughts, making sure the pages had the boldness and over the top styling I was 
 looking for.</p>
 <br>
