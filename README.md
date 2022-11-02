@@ -24,7 +24,7 @@ looking for.</p>
 <br>
 <p>To build the shop and shopping cart pages, I again took advantage of React's blend of Javascript and markup. Using map methods, I dynamically generated components based on information stored in JSON files. This is also how I created the three main product cards on the Mogged homepage. For the contact page, I used React's useRef to clear out the forms. If I was building the site for a company that actually exists, this is also how I would have captured and stored the data from the contact form. And finally, I built the shopping cart. The system uses a combination of localStorage and React useState to track what the user has added to their cart, as well as how many of each item they would like to order.</p>
 <br>
-<p></p>
+<p>For styling, I used exclusively flexbox, as I find it to be simple and intuitive for website layout and design. Using a little planning and foresight, I was able to setup all of my containers in a way that allowed me to easily opotomize the site for mobile. As I mentioned above, branding was really important for this project, so I put a lot of effort into making sure that each page conveyed Mogged's message to the best of its abilities. And as a final sidenote, all copy and images were produced by yours truly.</p>
 <br>
 <h1>Optimizations</h1>
 <br>
