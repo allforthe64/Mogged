@@ -28,7 +28,7 @@ looking for.</p>
 <br>
 <h1>Areas To Improve</h1>
 <br>
-<p>As proud as I am of the shopping cart system, I'll be the first to admit that it could use some work. One issue I ran into was updating components as items were added or removed from the cart, since this required each component to be re-rendered. I did this using window reloads, but I probably should have used React's useEffect hook to re-render the page when the shooping cart was changed. I additionally had to write all of my functions for the shopping cart in the App component and pass them using props, but I feel like there's a better solution out there that uses React's useContext. Not using context also had the inadvertent effect of causing me to use localStorage instead of useState, since I needed a variable that could be accessed from multiple components.</p>
+<p>As proud as I am of the shopping cart system, I'll be the first to admit that it could use some work. One issue I ran into was updating components as items were added or removed from the cart, since this required each component to be re-rendered. I did this using window reloads, but I probably should have used React's useEffect hook to re-render the page when the shooping cart was changed. I had to write all of my functions for the shopping cart in the App component and pass them using props, but there's a better solution out there that uses React's useContext. Not using context also caused me to use localStorage instead of useState, since I needed a variable that could be accessed from multiple components.</p>
 <br>
 <h1>Lessons I Learned</h1>
 <br>
