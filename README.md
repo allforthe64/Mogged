@@ -22,11 +22,9 @@ looking for.</p>
 <br>
 <p>Since I was using this project as a functional way to flex my new React skills, I wanted to make sure I had a variety of diverse features. Mogged is built using exclusively functional components which I really enjoyed writing. Having the ability to write Javascript code and markup in the same file was a huge advantage gained over regular HTML/Javascript. I also wanted to take advantage of React's ability to easily implement single page web design to help speed up load times and simplify the building process. I hooked up all my pages using the react-router-dom library.</p>
 <br>
-<p>To build the shop and shopping cart pages, I again took advantage of React's blend of Javascript and markup. Using map methods, I dynamically generated components based on information stored in JSON finals. This is also how I created the three main product cards on the Mogged homepage.</p>
+<p>To build the shop and shopping cart pages, I again took advantage of React's blend of Javascript and markup. Using map methods, I dynamically generated components based on information stored in JSON files. This is also how I created the three main product cards on the Mogged homepage. For the contact page, I used React's useRef to clear out the forms. If I was building the site for a company that actually exists, this is also how I would have captured and stored the data from the contact form. And finally, I built the shopping cart. The system uses a combination of localStorage and React useState to track what the user has added to their cart, as well as how many of each item they would like to order.</p>
 <br>
-<p>And finally, I created a checkout system for the site using the PayPal developer API. All of 
-code was taken from the PayPal website. This is to ensure that the code was secured and none of the 
-users' personal information could be leaked.</p>
+<p></p>
 <br>
 <h1>Optimizations</h1>
 <br>
